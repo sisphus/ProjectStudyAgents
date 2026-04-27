@@ -1,0 +1,108 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Generic build outputs
+build/
+dist/
+out/
+target/
+bin/
+obj/
+tmp/
+temp/
+coverage/
+.cache/
+
+# Dependency folders
+node_modules/
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.venv/
+venv/
+env/
+htmlcov/
+*.egg-info/
+
+# Java, Gradle, Maven
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+target/
+
+# Node and frontend tooling
+.next/
+.nuxt/
+.svelte-kit/
+.parcel-cache/
+.turbo/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Go
+*.test
+*.out
+go.work.sum
+
+# Rust
+Cargo.lock
+target/
+
+# C/C++ and native build artifacts
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+*.lib
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# Generated reports
+reports/
+test-results/
